@@ -1,0 +1,41 @@
+{
+  "name": "api.wms",
+  "version": "1.0.0",
+  "description": "wms",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JUG",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.54.0",
+    "adbkit": "^2.11.1",
+    "aws-sdk": "^2.1205.0",
+    "axios": "^1.8.4",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "custom-env": "^2.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.0.0",
+    "moment": "^2.29.4",
+    "mssql": "^7.2.1",
+    "multer": "^1.4.4",
+    "mysql2": "^3.14.1",
+    "node-fetch": "^3.3.2",
+    "node-rfid": "^1.0.7",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.14",
+    "redis": "^4.7.0",
+    "sequelize": "^6.11.0",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.13",
+    "web-push": "^3.6.7",
+    "xlsx": "^0.18.5"
+  }
+}
