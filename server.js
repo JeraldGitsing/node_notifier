@@ -19,6 +19,11 @@ io.on('connection', (socket) => {
     });
 });
 
+app.get("/wms", (req,res) => { 
+    res.send('Hello ourpl');
+})
+
+
 server.listen(5500, () => {
     console.log('Server running on port 5500');
 });
