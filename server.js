@@ -19,8 +19,8 @@ io.on('connection', (socket) => {
     });
 });
 
-app.get("/wms", (req,res) => { 
-    res.send('Hello ourpl');
+app.get("/ourppl", (req,res) => { 
+    res.send('Hello clients');
 })
 
 
